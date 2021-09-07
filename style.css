@@ -31,11 +31,16 @@ aside {
 }
 .dark-box {
     background-color: #202020;
+    margin-bottom: 2rem;
 }
 
 .logo {
     background-color: #fff;
     border-radius:35px;
-    display: inline-block;
-    flex:1;
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    /* flex:1; */
+    height:50px;
+    width:50px;
 }
