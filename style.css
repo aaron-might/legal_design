@@ -7,8 +7,35 @@
 body {
     font-family: "Roboto", sans-serif;
     margin: 0;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    padding:6rem;
+    padding-left: 0;
 }
 a{
     color: #fff;
     text-decoration: none;
+}
+main {
+    width: 60%;
+}
+aside {
+    width: 40%;
+}
+.box{
+    background-color: #404040;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dark-box {
+    background-color: #202020;
+}
+
+.logo {
+    background-color: #fff;
+    border-radius:35px;
+    display: inline-block;
+    flex:1;
 }
